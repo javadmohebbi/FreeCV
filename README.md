@@ -15,7 +15,7 @@ You can download the latest version of FreeCV from this link: [FreeCV Latest Ver
 
 
 # Installation
-For instruction check out this URL: [Installation Guide](http://0n1.ir/8oJ4Mr)
+For instruction check out this URL: [Installation Guide](http://0n1.ir/FreeCV)
 
 
 # Demo

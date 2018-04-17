@@ -71,7 +71,7 @@ class TagItem extends Model
             ->where('articles.language_id', '=', $langId)
             ->where('tag_items.tag_id', '=', $tagId)
             ->orderBy('created_at', 'desc')
-            ->paginate(1);
+            ->paginate(5);
         return $articles;
     }
 
