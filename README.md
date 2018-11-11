@@ -28,5 +28,5 @@ FreeCV can support all available languages including RTL languages. For now it i
   - English
   - Persian(Farsi)
 
-If you are interested in another language. Please contact [me at mjmohebbi.com](mailto:me@mjmohebbi.com). I'll appreciate if you can help ;-)
+If you are interested in another language. Please contact [me (at) mjmohebbi.com](mailto:me@mjmohebbi.com). I'll appreciate if you can help ;-)
 
