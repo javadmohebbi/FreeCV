@@ -47,9 +47,12 @@
 
     </div>
 
-    <div style="margin: 20px auto">
+    <div style="margin: 20px auto;font-size:16px; line-height: 2; margin-bottom: 20px">
        {!! $article->html_desc  !!}
     </div>
+
+
+
 
     @include('templates.blogs.modules.comments')
 

@@ -510,9 +510,14 @@ function isKbActive($lang){
 /**
  * @param $lang
  */
-function getWebTitle($lang){
+function getWebTitle($lang, $blogTitle=null){
     $setting = new \App\Setting();
-    return $setting->getWebTitle($lang);
+    if ($blogTitle==null) {
+        return $setting->getWebTitle($lang);
+    } else {
+        return $setting->getWebTitle($lang) . '|' . $blogTitle;
+    }
+
 }
 
 /**

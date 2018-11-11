@@ -1967,7 +1967,7 @@ $(document).ready(function() {
                 ['style', ['bold', 'italic', 'underline', 'clear']],
                 ['color', ['color']],
                 ['para', ['ul', 'ol', 'paragraph']],
-                ['insert',['ltr','rtl']],
+                ['insert',['ltr','rtl', 'link']],
                 ['view', ['codeview']],
                 ['picture',['picture']]
             ],
@@ -2210,7 +2210,7 @@ $(document).ready(function() {
                         ['style', ['bold', 'italic', 'underline', 'clear']],
                         ['color', ['color']],
                         ['para', ['ul', 'ol', 'paragraph']],
-                        ['insert',['ltr','rtl']],
+                        ['insert',['ltr','rtl', 'link']],
                         ['view', ['codeview']],
                         ['picture',['picture']]
                     ],

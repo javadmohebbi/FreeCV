@@ -20,3 +20,13 @@ For instruction check out this URL: [Installation Guide](http://0n1.ir/FreeCV)
 
 # Demo
 Take a look at [MJMOHEBBI.COM](http://mjmohebbi.com)
+
+
+
+# Languages
+FreeCV can support all available languages including RTL languages. For now it is supporting this list:
+  - English
+  - Persian(Farsi)
+
+If you are interested in another language. Please contact [me at mjmohebbi.com](mailto:me@mjmohebbi.com). I'll appreciate if you can help ;-)
+

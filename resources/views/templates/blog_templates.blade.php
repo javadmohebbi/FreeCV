@@ -7,7 +7,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{ getWebTitle(App::getLocale()) }}</title>
+    @if(isset($article->title))
+        <title>{{ getWebTitle(App::getLocale(), $article->title) }}</title>
+    @else
+        <title>{{ getWebTitle(App::getLocale()) }}</title>
+    @endif
 
     <meta name="keywords" content="{{ getWebKeywords(App::getLocale()) }}" />
 
@@ -211,6 +215,11 @@ desired effect
 
 <!-- Bootstrap Toggle -->
 <script type="text/javascript" src="{{ asset("public/vendor/bootstrap-toggle/bootstrap-toggle.min.js") }}"></script>
+
+
+
+
+<script src="https://rawgit.com/google/code-prettify/master/loader/run_prettify.js?autoload=true&amp;skin=sunburst&amp;lang=css" defer=""></script>
 
 
 
