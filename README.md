@@ -1,3 +1,5 @@
+# THIS PROJECT IS RETIRED...! 
+
 # About FreeCV
 FreeCV is an opensource and free web application which help you to build your online CV on your personal website. This project has built on top of Laravel framework.
 
@@ -16,11 +18,6 @@ You can download the latest version of FreeCV from this link: [FreeCV Latest Ver
 
 # Installation
 For instruction check out this URL: [Installation Guide](http://0n1.ir/FreeCV)
-
-
-# Demo
-Take a look at [MJMOHEBBI.COM](http://mjmohebbi.com)
-
 
 
 # Languages
